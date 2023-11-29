@@ -1,5 +1,9 @@
-a = int(input("Enter a:"))
-b = int(input("Enter b:"))
+a = int(input("Enter first number a:"))
+b = int(input("Enter second number b:"))
+c = int(input("Enter third number c:"))
 
-y = a + b
-print(y)
+
+if a + b > c and a + c > b and b + c > a:
+    print("Yes, it is")
+else:
+    print("No, it is not")
