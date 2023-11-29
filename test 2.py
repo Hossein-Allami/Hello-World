@@ -1,5 +1,15 @@
-a = 5 
-b = 10
-c = 3
-y = (a + b ) * c
-print(y)
+op = input("Enter op( + , - , * , /):")
+a = int(input("Enter a:"))
+b = int(input("Enter b:"))
+
+if op == "+":
+    print(a+b)
+
+if op == "*":
+    print(a*b)
+
+if op == "/":
+    print(a/b)
+
+if op == "-":
+    print(a-b)
